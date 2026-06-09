@@ -7,6 +7,7 @@ const CompanyPage = async () => {
 
     const user = await getUserSession();
     const company = await getRecruiterCompany(user?.id);
+    
 
     return (
         <div>
